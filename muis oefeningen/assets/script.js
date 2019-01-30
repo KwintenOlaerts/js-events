@@ -16,12 +16,12 @@ hover[i].addEventListener("mouseover", hoveroverdiv);
 // => hoveroverdiv
 
 
-let appear = document.getElementById("reset")
+
 
 // function reset (rst) {
 //  = "black";
 // }
-
+let appear = document.getElementById("reset")
 
 appear.addEventListener("click", function(){
 // hover[i].style.backgroundColor = "black";

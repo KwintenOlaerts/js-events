@@ -1,0 +1,11 @@
+#x-axis {
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+}
+
+#y-axis {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+}
