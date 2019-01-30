@@ -34,8 +34,8 @@ imgs.forEach(img =>{
 function change(evt){
   for( var i = 0 ; i < imgs.length ; i++ ){
     if(evt.currentTarget == imgs[i]){
-      j = i + 1;
-      imgs[i].src = "assets/image" + j + "_2.jpg";
+      y = i + 1;
+      imgs[i].src = "assets/image" + y + "_2.jpg";
     }
   }
 }
