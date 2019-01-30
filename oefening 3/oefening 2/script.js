@@ -25,17 +25,17 @@
 
 // reeks 3 oefening 5 
 
-// let imgs = document.querySelectorAll("img");
+let imgs = document.querySelectorAll("img");
 
-// imgs.forEach(img =>{
-//   img.addEventListener("mouseover", change)
-// })
+imgs.forEach(img =>{
+  img.addEventListener("mouseover", change)
+})
 
-// function change(evt){
-//   for( var i = 0 ; i < imgs.length ; i++ ){
-//     if(evt.currentTarget == imgs[i]){
-//       j = i + 1;
-//       imgs[i].src = "assets/image" + j + "_2.jpg";
-//     }
-//   }
-// }
+function change(evt){
+  for( var i = 0 ; i < imgs.length ; i++ ){
+    if(evt.currentTarget == imgs[i]){
+      j = i + 1;
+      imgs[i].src = "assets/image" + j + "_2.jpg";
+    }
+  }
+}
